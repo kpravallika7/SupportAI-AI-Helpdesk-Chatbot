@@ -2,9 +2,13 @@
 
 A browser-based AI helpdesk assistant that combines **FAQ retrieval, keyword matching, TF-IDF similarity, hybrid search, confidence-based fallback, Groq LLM responses, conversation state, and human-agent escalation** in a professional Streamlit chat interface.
 
+## Demo
+
+![SupportAI AI Helpdesk Chatbot Demo](supportai-demo.png)
+
 > This project is the web-enabled evolution of the original SupportAI command-line helpdesk agent.
 
-## ✨ Features
+## Features
 
 - 💬 Browser-based chatbot interface
 - 📚 FAQ knowledge base
@@ -91,6 +95,7 @@ SupportAI-AI-Helpdesk-Chatbot/
 ### Responsibilities
 
 **`supportai.py`**
+
 - FAQ knowledge base
 - Keyword retrieval
 - TF-IDF matching
@@ -102,6 +107,7 @@ SupportAI-AI-Helpdesk-Chatbot/
 - Escalation and ticket generation
 
 **`app.py`**
+
 - Browser UI
 - Chat messages
 - Example prompts
@@ -290,17 +296,17 @@ and make sure `.env` is not listed as a file to commit.
 
 # 🛠️ Technology Stack
 
-| Layer | Technology |
-|---|---|
-| Language | Python |
-| Web UI | Streamlit |
-| LLM | Groq API |
-| Retrieval | Keyword + TF-IDF |
-| Similarity | Cosine Similarity |
-| ML/NLP | Scikit-learn |
-| API requests | Requests |
-| Configuration | python-dotenv |
-| Interface | Browser-based HTTP application |
+| Layer         | Technology                     |
+| ------------- | ------------------------------ |
+| Language      | Python                         |
+| Web UI        | Streamlit                      |
+| LLM           | Groq API                       |
+| Retrieval     | Keyword + TF-IDF               |
+| Similarity    | Cosine Similarity              |
+| ML/NLP        | Scikit-learn                   |
+| API requests  | Requests                       |
+| Configuration | python-dotenv                  |
+| Interface     | Browser-based HTTP application |
 
 ---
 
@@ -308,12 +314,12 @@ and make sure `.env` is not listed as a file to commit.
 
 The current engine contains example support topics:
 
-| FAQ | Category | Topic |
-|---|---|---|
-| faq-001 | Account | Password reset |
-| faq-002 | Billing | Refund policy |
-| faq-003 | Shipping | Shipping time |
-| faq-004 | Account | Update email |
+| FAQ     | Category  | Topic                |
+| ------- | --------- | -------------------- |
+| faq-001 | Account   | Password reset       |
+| faq-002 | Billing   | Refund policy        |
+| faq-003 | Shipping  | Shipping time        |
+| faq-004 | Account   | Update email         |
 | faq-005 | Technical | Application crashing |
 
 ---
